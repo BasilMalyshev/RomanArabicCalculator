@@ -85,7 +85,7 @@ public class RomanArabicCalculator {
 
         StringBuilder s = new StringBuilder();
 
-        if (input < 1) throw new Exception ("ОТРИЦАТЕЛЬНОЕ ЧИСЛО");
+        if (input < 1) throw new Exception("Отрицательное число");
 
         while (input >= 100) {
             s.append("C");
